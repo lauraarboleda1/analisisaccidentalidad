@@ -61,7 +61,7 @@ Para facilitar la interpretación de los hallazgos desarrollamos siete visualiza
 3. Tipos de vehículos involucrados.
 ### Tipos de vehículos involucrados
 
-![Tipos de vehículos](graficas/grafico_03_tipos.png)
+![Tipos de vehículos](graficas/grafico_03_tipos(1).png)
 
 4. Distribución según la gravedad.
    ### Distribución según la gravedad
