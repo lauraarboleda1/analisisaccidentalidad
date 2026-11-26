@@ -44,42 +44,39 @@ También encontramos diferencias en la composición de la gravedad según el tip
 
 Es importante aclarar que cada registro representa un vehículo involucrado y no necesariamente un accidente individual. Asimismo, 2026 contiene información parcial hasta septiembre.
 
+
 ## 4. Visualización de resultados
 
-Para facilitar la interpretación de los hallazgos desarrollamos siete visualizaciones en Databricks:
+Para facilitar la interpretación de los hallazgos, desarrollamos siete visualizaciones en Databricks:
 
-1. Departamentos con mayor cantidad de registros.
-   ### Departamentos con mayor cantidad de registros
+### 4.1 Departamentos con mayor cantidad de registros
 
 ![Departamentos](graficas/grafico_01_departamentos.png)
 
-2. Evolución mensual de la accidentalidad.
-   ### Evolución de la accidentalidad
+### 4.2 Evolución mensual de la accidentalidad
 
 ![Tendencia](graficas/grafico_02_tendencia.png)
 
-3. Tipos de vehículos involucrados.
-### Tipos de vehículos involucrados
+### 4.3 Tipos de vehículos involucrados
 
-![Tipos de vehículos](graficas/grafico_03_tipos(1).png)
+![Tipos de vehículos](graficas/grafico_03_tipos.png)
 
-4. Distribución según la gravedad.
-   ### Distribución según la gravedad
+### 4.4 Distribución según la gravedad
 
 ![Gravedad](graficas/grafico_04_gravedad.png)
 
-5. Porcentaje de registros con muertos por departamento.
-### Porcentaje de registros con muertos
+### 4.5 Porcentaje de registros con muertos
 
 ![Mortalidad](graficas/grafico_05_mortalidad.png)
-6. Marcas de vehículos con mayor frecuencia.
-### Marcas de vehículos
+
+### 4.6 Marcas de vehículos con mayor frecuencia
 
 ![Marcas](graficas/grafico_06_marcas.png)
-7. Distribución geográfica de los registros mediante un mapa esquemático.
-### Distribución geográfica
+
+### 4.7 Distribución geográfica de los registros
 
 ![Mapa](graficas/grafico_07_mapa.png)
+
 
 Estas gráficas permiten comparar los resultados y comprender visualmente los patrones identificados durante el análisis.
 
