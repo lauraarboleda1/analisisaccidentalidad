@@ -82,12 +82,17 @@ Estas gráficas permiten comparar los resultados y comprender visualmente los pa
 
 ## 5. Validación y resultados finales
 
-Como parte del desarrollo, realizamos 17 comprobaciones de validación, todas satisfactorias. Verificamos la integridad de las tablas, la consistencia de los datos y la correspondencia entre las capas de procesamiento.
+La información procesada pasó satisfactoriamente las 17 pruebas de validación realizadas, garantizando la consistencia de los datos utilizados en el análisis.
 
-El resultado fue una arquitectura Medallion implementada en Databricks, con información depurada, tablas analíticas y visualizaciones que permiten explorar diferentes características de la accidentalidad vial.
+A partir de los 450.335 registros iniciales, se obtuvo una base final de 290.936 registros depurados, sin duplicados exactos y con 17 variables para su análisis.
 
-## 6. Conclusión
+Como resultado, se consolidó información que permitió reconocer las principales concentraciones de accidentalidad, los vehículos más involucrados y el comportamiento de la gravedad de los accidentes en Colombia. Estos hallazgos se presentan mediante tablas y siete visualizaciones que facilitan su interpretación.
 
-Este proyecto nos permitió pasar de una base de datos sin procesar a información estructurada y útil para el análisis. Aprendimos a implementar un proceso de Big Data desde la ingesta y limpieza hasta el modelado y la visualización.
 
-Principalmente, logramos identificar dónde se concentra la accidentalidad registrada, cuáles son los vehículos más involucrados, cómo se distribuye la gravedad y qué cambios se observan a través del tiempo. De esta manera, demostramos cómo el uso de Big Data facilita la comprensión de problemáticas reales y genera información que puede apoyar la toma de decisiones en materia de seguridad vial.
+## 6. Conclusiones
+
+El análisis de los 290.936 registros permitió identificar que Antioquia, Valle del Cauca y Bogotá D.C. concentran el 52,2 % de los registros estudiados. Asimismo, las motocicletas representan el 49,7 %, siendo el tipo de vehículo con mayor participación.
+
+En cuanto a la gravedad, el 91,99 % de los registros corresponde a accidentes con personas lesionadas y el 8,01 % a casos con fallecidos. También se identificó una mayor proporción de registros con muertos en vehículos pesados, especialmente tractocamiones, volquetas y camiones.
+
+Estos resultados evidencian diferencias en la distribución territorial y en la participación de los tipos de vehículos, aportando información útil para comprender la accidentalidad y orientar acciones de prevención y seguridad vial.
